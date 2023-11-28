@@ -1,6 +1,7 @@
-package com.example;
+package com.example.Logs;
 
 import com.example.Examination.MedicalInvestigation;
+import com.example.Patient;
 
 import javax.swing.*;
 import java.awt.*;
@@ -87,7 +88,7 @@ public class Log extends GeneralLog {
 
                 // Adding the medical investigation (BP) results
                 JLabel displayBP = new JLabel("<html>" + mI.getBp().displayText() +
-                        "<br> Date: " + mI.getBp().getDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy")) + "</html>");
+                        "<br> Date: " + mI.getBp().getDate().format(DateTimeFormatter.ofPattern("dd-MM-YYYY")) + "</html>");
 
                 //Defining border parameters for better visibility
                 displayLabelPatientImage.setBorder(BorderFactory.createLineBorder(Color.BLACK));

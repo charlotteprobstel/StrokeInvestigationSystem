@@ -54,7 +54,7 @@ public class BPMeasurement extends Examination {
 
     @Override
     public String toString() {
-        return "BP: " + term.toString() + ", " + getDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy"));
+        return "BP: " + term.toString() + ", " + getDate().format(DateTimeFormatter.ofPattern("dd-MM-YYYY"));
     }
 
     /**

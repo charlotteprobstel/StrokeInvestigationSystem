@@ -43,6 +43,6 @@ public class MRIScan extends Examination {
 
     @Override
     public String toString() {
-        return "MRI: " + magneticFieldStrength + " Tesla, " + getDate().format(DateTimeFormatter.ofPattern("dd-MM-yyyy")) + ": ";
+        return "MRI: " + magneticFieldStrength + " Tesla, " + getDate().format(DateTimeFormatter.ofPattern("dd-MM-YYYY")) + ": ";
     }
 }

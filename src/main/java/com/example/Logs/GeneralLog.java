@@ -1,6 +1,7 @@
-package com.example;
+package com.example.Logs;
 
 import com.example.Examination.MedicalInvestigation;
+import com.example.Patient;
 
 public abstract class GeneralLog {
 
