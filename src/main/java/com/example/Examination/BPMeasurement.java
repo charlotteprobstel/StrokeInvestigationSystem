@@ -1,8 +1,9 @@
-package com.example;
+package com.example.Examination;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class BPMeasurement extends Examination{
+public class BPMeasurement extends Examination {
 
     /**
      * Class defines the BP examination and inherits from Examination

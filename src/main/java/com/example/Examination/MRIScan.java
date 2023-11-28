@@ -1,9 +1,11 @@
-package com.example;
+package com.example.Examination;
+
+import com.example.Examination.Examination;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class MRIScan extends Examination{
+public class MRIScan extends Examination {
 
     /**
      * Class defines the MRI examination and inherits from Examination

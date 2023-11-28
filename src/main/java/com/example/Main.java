@@ -1,5 +1,10 @@
 package com.example;
 
+import com.example.Examination.BPMeasurement;
+import com.example.Examination.BPTerm;
+import com.example.Examination.MRIScan;
+import com.example.Examination.MedicalInvestigation;
+
 import java.time.LocalDate;
 
 public class Main {
@@ -7,12 +12,12 @@ public class Main {
         //Message to the examiner:
         /**
          * I took my own approach to the task by adding the flexibility for a patient to have multiple medical examinations
-         */
+         **/
 
         //Creating Patient Daphne, their MRIScan, their BPMeasurement.
         Patient daphne = new Patient("Daphne Von Oram", "https://martinh.netfirms.com/BIOE60010/DaphneVonOram.jpg", 62);
         MRIScan daphneScan = new MRIScan("https://martinh.netfirms.com/BIOE60010/mri1.jpg", LocalDate.of(2023,9,14), 2);
-        BPMeasurement daphneBP = new BPMeasurement(130, 70, LocalDate.of(23,9,15),BPTerm.ST);
+        BPMeasurement daphneBP = new BPMeasurement(130, 70, LocalDate.of(23,9,15), BPTerm.ST);
         MedicalInvestigation daphneMI = new MedicalInvestigation(daphneScan, daphneBP,daphne);
         daphne.addMedicalInvestigation(daphneMI);
 

@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.Examination.MedicalInvestigation;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -16,7 +18,7 @@ public class Log extends GeneralLog {
      * Two HashMaps of Patients and Medical Investigations is made to avoid repetition.
      */
 
-    private HashMap<Patient,MedicalInvestigation> patients;
+    private HashMap<Patient, MedicalInvestigation> patients;
     private HashMap<MedicalInvestigation, Patient> exams;
     private static int count = 0;
 

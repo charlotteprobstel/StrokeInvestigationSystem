@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.Examination.MedicalInvestigation;
+
 import java.util.ArrayList;
 import java.util.List;
 

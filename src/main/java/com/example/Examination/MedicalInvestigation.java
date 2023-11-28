@@ -1,4 +1,6 @@
-package com.example;
+package com.example.Examination;
+
+import com.example.Patient;
 
 public class MedicalInvestigation{
 
